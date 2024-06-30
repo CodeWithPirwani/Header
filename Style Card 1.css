@@ -1,0 +1,67 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.img{
+    width: 100vw;
+    height: 100vh;
+    background: linear-gradient(rgba(84, 83, 83, 0.379), rgba(6, 6, 6, 0.379)),
+    url(Images-Card1/ai-generated-8704060_1280.jpg) no-repeat top center;
+    background-size: 100% 100%;
+
+}
+.fa-hand-point-right{
+    font-size: 3rem;
+    color: white;
+    position: absolute;
+    top: 6px;
+    left: 12px;
+}
+.img-heading{
+    font-size: 3.4em;
+    font-weight: 600;
+    color: white;
+    text-align: center;
+    padding-top: 140px;
+    padding-bottom: 40px;
+}
+.cardbox{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+.card{
+    width: 22vw;
+    height: 55vh;
+    margin: 15px 25px;
+    background-color: rgb(246, 243, 243);
+    padding: 4px;
+    box-shadow: 0px 0px 8px 0px #a3a1a1;
+    border: none;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.card:hover{
+    box-shadow: 0px 0px 25px 0px #a3a1a1;
+    cursor: pointer;
+}
+img{
+    width: 19vw;
+    height: 33vh;
+    margin: 0px 0px;
+}
+.card-heading{
+    font-size: 1.7rem;
+    font-weight: 600;
+    margin: 10px 0px 3px 6px;
+    align-self: flex-start;
+}
+.card-para{
+    margin: 5px 5px 8px 6px;
+    align-self: flex-start;
+}

@@ -1,0 +1,129 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.img{
+    width: 100vw;
+    height: 100vh;
+    background: linear-gradient(rgba(84, 83, 83, 0.189), rgba(6, 6, 6, 0.224)),
+    url(Images-Card2/central-vietnam-food-banner.jpg) no-repeat top center;
+    background-size: 100% 100%;
+    filter: blur(4px);
+    position: relative;
+}
+.fa-hand-point-right{
+    font-size: 3rem;
+    color: white;
+    position: absolute;
+    top: 10px;
+    left: 10px;
+}
+.img-heading{
+    font-size: 2.8em;
+    font-weight: 600;
+    color: white;
+    text-align: center;
+    padding-top: 30px;
+    position: absolute;
+    top: 5px;
+    left: 43vW;
+}
+.img-text{
+    font-size: 1.4rem;
+    color: white;
+    text-align: center;
+    padding: 10px 0px 18px 0px;
+    position: absolute;
+    top: 94px;
+    left: 31vW;
+}
+.card-box{
+    position: absolute;
+    top: 30vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+.card{
+    width: 18vw;
+    height: 45vh;
+    margin: 15px 20px;
+    background-color: rgb(246, 243, 243);
+    padding: 4px;
+    box-shadow: 0px 0px 8px 0px #c6c3c3e2;
+    border: none;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.card1{
+    width: 18vw;
+    height: 45vh;
+    margin: 15px 15px 15px 130px;
+    background-color: rgb(246, 243, 243);
+    padding: 4px;
+    box-shadow: 0px 0px 8px 0px #c6c3c3e2;
+    border: none;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.card4{
+    width: 18vw;
+    height: 45vh;
+    margin: 15px 130px 15px 15px;
+    background-color: rgb(246, 243, 243);
+    padding: 4px;
+    box-shadow: 0px 0px 8px 0px #c6c3c3e2;
+    border: none;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.card:hover{
+    box-shadow: 0px 0px 25px 0px #c6c3c3e2;
+    cursor: pointer;
+}
+.card1:hover{
+    box-shadow: 0px 0px 25px 0px #c6c3c3e2;
+    cursor: pointer;
+}
+.card4:hover{
+    box-shadow: 0px 0px 25px 0px #c6c3c3e2;
+    cursor: pointer;
+}
+img{
+    height: 150px;
+    width: 150px;
+    border-radius: 50%;
+    box-shadow: 0px 0px 15px 0px black;
+    margin: 20px auto;
+}
+p{
+    font-size: 1.5em;
+    font-weight: 600;
+    text-align: center;
+
+}
+button{
+    position: absolute;
+    bottom: -80px;
+    left: 43vW;
+    font-size: 1.2em;
+    color: white;
+    text-align: center;
+    background-color: transparent;
+    padding: 6px 17px;
+    border: 1px solid white;
+    letter-spacing: 1.2px;
+}
+button:hover{
+    color: black;
+    background-color: white;
+    cursor: pointer;
+}

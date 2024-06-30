@@ -1,0 +1,103 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.navbar{
+    background-color: rgb(246, 243, 243);
+    padding: 15px 70px;
+    display: flex;
+    flex-direction: row;
+    justify-content: end;
+    align-items: center;
+}
+.fa-hand-point-right{
+    font-size: 3rem;
+    color: black;
+    position: absolute;
+    top: 6px;
+    left: 12px;
+}
+.navchild{
+    margin: 0px 14px;
+    font-size: 1.4em;
+    letter-spacing: 1.2px;
+    font-weight: 500;
+}
+.navchild:hover{
+    color: rgb(240, 204, 3);
+    text-decoration: underline;
+    text-decoration-color: rgb(240, 204, 3);
+    cursor: pointer;
+}
+.navimg{
+    width: 100vw;
+    height: 100vh;
+    background: linear-gradient(rgba(236, 234, 234, 0.742), rgba(246, 243, 243, 0.666)),
+    url(images/Background\ image.jpg) no-repeat top center;
+  background-size: 100% 100%;
+}
+h3{
+    font-size: 3em;
+    text-align: center;
+    font-weight: 800;
+    letter-spacing: 1.2px;
+    padding: 10px;
+}
+span{
+    color: rgb(240, 204, 3);
+}
+.cardbox{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+.card{
+    width: 28vw;
+    height: 74vh;
+    margin: 15px 25px;
+    background-color: rgb(246, 243, 243);
+    padding: 4px;
+    box-shadow: 0px 0px 8px 0px #a3a1a1;
+    border-radius: 8px;
+    border: none;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.card:hover{
+    box-shadow: 0px 0px 25px 0px #a3a1a1;
+}
+img{
+    width: 26vw;
+    height: 38vh;
+    margin: 0px 0px;
+}
+.card-name{
+    font-size: 1.7rem;
+    font-weight: 600;
+    margin: 10px 0px 8px 0px;
+}
+i{
+    font-size: 1.5rem;
+    color: rgb(240, 204, 3);
+}
+.price{
+    font-size: 1.5rem;
+    margin: 8px 0px 0px 0px;
+}
+button{
+    margin: 10px 0px 0px 0px;
+    font-size: 1.2rem;
+    border: 2px solid rgb(240, 204, 3);
+    border-radius: 30px;
+    padding: 8px 25px;
+}
+button:hover{
+    background-color: rgb(240, 204, 3);
+    font-weight: 600;
+    cursor: pointer;
+}
